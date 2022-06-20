@@ -1,0 +1,96 @@
+2022-06-20 12:44:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-06-20 12:44:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Elasticsearch repository interfaces.
+2022-06-20 12:44:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-06-20 12:44:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-06-20 12:44:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 12:44:31 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 12:44:31 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-20 12:44:31 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-20 12:44:31 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-20 12:44:31 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3445 ms
+2022-06-20 12:44:34 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-20 12:44:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-20 12:52:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-06-20 12:52:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Elasticsearch repository interfaces.
+2022-06-20 12:52:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-06-20 12:52:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-06-20 12:52:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 12:52:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 12:52:13 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-20 12:52:13 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-20 12:52:14 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-20 12:52:14 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4456 ms
+2022-06-20 12:52:14 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ELKController' defined in file [D:\spring\Projects\springdataelastic\target\classes\com\springdata\elastic\controller\ELKController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'restService' defined in file [D:\spring\Projects\springdataelastic\target\classes\com\springdata\elastic\service\RestService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-06-20 12:52:14 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-20 12:52:14 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-20 12:52:14 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.springdata.elastic.service.RestService required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+2022-06-20 12:55:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-06-20 12:55:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Elasticsearch repository interfaces.
+2022-06-20 12:55:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-06-20 12:55:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-06-20 12:55:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 12:55:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 12:55:32 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-20 12:55:32 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-20 12:55:32 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-20 12:55:32 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3822 ms
+2022-06-20 12:55:32 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ELKController' defined in file [D:\spring\Projects\springdataelastic\target\classes\com\springdata\elastic\controller\ELKController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'restService' defined in file [D:\spring\Projects\springdataelastic\target\classes\com\springdata\elastic\service\RestService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-06-20 12:55:32 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-20 12:55:32 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-20 12:55:32 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.springdata.elastic.service.RestService required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+2022-06-20 13:03:41 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-06-20 13:03:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Elasticsearch repository interfaces.
+2022-06-20 13:03:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-06-20 13:03:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-06-20 13:03:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 13:03:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 13:03:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-20 13:03:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-20 13:03:46 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-20 13:03:46 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6091 ms
+2022-06-20 13:03:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-20 13:03:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-20 13:04:33 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-20 13:04:33 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-20 13:04:33 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2022-06-20 13:05:27 [http-nio-8080-exec-2] INFO  outbound-logs - Getting Weather Information for ohio
+2022-06-20 13:05:27 [http-nio-8080-exec-2] INFO  outbound-logs - Final URL => https://goweather.herokuapp.com/weather/ohio
+2022-06-20 13:05:35 [http-nio-8080-exec-2] INFO  outbound-logs - Response => {"temperature":"14 °C","wind":"4 km/h","description":"Partly cloudy","forecast":[{"day":"1","temperature":"+24 °C","wind":"17 km/h"},{"day":"2","temperature":"+23 °C","wind":"18 km/h"},{"day":"3","temperature":"29 °C","wind":"20 km/h"}]}
+2022-06-20 13:18:07 [http-nio-8080-exec-4] INFO  outbound-logs - Getting Weather Information for ohio
+2022-06-20 13:18:07 [http-nio-8080-exec-4] INFO  outbound-logs - Final URL => https://goweather.herokuapp.com/weather/ohio
+2022-06-20 13:18:20 [http-nio-8080-exec-4] INFO  outbound-logs - Response => {"temperature":"14 °C","wind":"4 km/h","description":"Partly cloudy","forecast":[{"day":"1","temperature":"+24 °C","wind":"17 km/h"},{"day":"2","temperature":"+23 °C","wind":"18 km/h"},{"day":"3","temperature":"29 °C","wind":"20 km/h"}]}
+2022-06-20 13:24:31 [http-nio-8080-exec-7] INFO  outbound-logs - Getting Weather Information for nairobi
+2022-06-20 13:24:31 [http-nio-8080-exec-7] INFO  outbound-logs - Final URL => https://goweather.herokuapp.com/weather/nairobi
+2022-06-20 13:24:43 [http-nio-8080-exec-7] INFO  outbound-logs - Response => {"temperature":"19 °C","wind":"11 km/h","description":"Partly cloudy","forecast":[{"day":"1","temperature":"25 °C","wind":"15 km/h"},{"day":"2","temperature":"24 °C","wind":"12 km/h"},{"day":"3","temperature":"+22 °C","wind":"14 km/h"}]}

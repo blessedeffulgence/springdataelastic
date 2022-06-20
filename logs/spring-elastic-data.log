@@ -1,0 +1,223 @@
+2022-06-20 09:00:07 [main] INFO  c.s.e.SpringdataelasticApplication - Starting SpringdataelasticApplication using Java 18.0.1.1 on AMasterPiece with PID 17956 (D:\spring\Projects\springdataelastic\target\classes started by bless in D:\spring\Projects\springdataelastic)
+2022-06-20 09:00:07 [main] INFO  c.s.e.SpringdataelasticApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-20 09:00:07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-06-20 09:00:07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Elasticsearch repository interfaces.
+2022-06-20 09:00:07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-06-20 09:00:07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-06-20 09:00:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 09:00:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 09:00:08 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-20 09:00:08 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-20 09:00:08 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-20 09:00:08 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1380 ms
+2022-06-20 09:00:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-20 09:00:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-20 09:00:09 [main] INFO  c.s.e.SpringdataelasticApplication - Started SpringdataelasticApplication in 2.929 seconds (JVM running for 3.364)
+2022-06-20 09:01:10 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-20 09:01:10 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-20 09:01:10 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-06-20 09:01:10 [http-nio-8080-exec-1] INFO  c.s.elastic.controller.ELKController - Inside Food Detail Function
+2022-06-20 09:01:10 [http-nio-8080-exec-1] INFO  c.s.elastic.service.ELKService - Fetching all food details
+2022-06-20 09:01:10 [http-nio-8080-exec-1] ERROR c.s.elastic.service.ELKService - Error occurred in reading JSON file
+2022-06-20 09:01:13 [http-nio-8080-exec-4] INFO  c.s.elastic.controller.ELKController - Inside Food Detail Function
+2022-06-20 09:01:13 [http-nio-8080-exec-4] INFO  c.s.elastic.service.ELKService - Fetching all food details
+2022-06-20 09:01:13 [http-nio-8080-exec-4] ERROR c.s.elastic.service.ELKService - Error occurred in reading JSON file
+2022-06-20 09:01:23 [main] INFO  c.s.e.SpringdataelasticApplication - Starting SpringdataelasticApplication using Java 18.0.1.1 on AMasterPiece with PID 13792 (D:\spring\Projects\springdataelastic\target\classes started by bless in D:\spring\Projects\springdataelastic)
+2022-06-20 09:01:23 [main] INFO  c.s.e.SpringdataelasticApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-20 09:01:23 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-06-20 09:01:24 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Elasticsearch repository interfaces.
+2022-06-20 09:01:24 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-06-20 09:01:24 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-06-20 09:01:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 09:01:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 09:01:24 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-20 09:01:24 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-20 09:01:24 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-20 09:01:24 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1368 ms
+2022-06-20 09:01:25 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-20 09:01:25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-20 09:01:25 [main] INFO  c.s.e.SpringdataelasticApplication - Started SpringdataelasticApplication in 2.863 seconds (JVM running for 3.354)
+2022-06-20 09:01:28 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-20 09:01:28 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-20 09:01:28 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-06-20 09:01:28 [http-nio-8080-exec-1] INFO  c.s.elastic.controller.ELKController - Inside Food Detail Function
+2022-06-20 09:01:28 [http-nio-8080-exec-1] INFO  c.s.elastic.service.ELKService - Fetching all food details
+2022-06-20 09:02:29 [http-nio-8080-exec-2] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 09:02:29 [http-nio-8080-exec-2] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 09:02:29 EAT 2022
+2022-06-20 09:02:31 [http-nio-8080-exec-9] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 09:02:31 [http-nio-8080-exec-9] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 09:02:31 EAT 2022
+2022-06-20 09:02:32 [http-nio-8080-exec-6] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 09:02:32 [http-nio-8080-exec-6] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 09:02:32 EAT 2022
+2022-06-20 09:02:33 [http-nio-8080-exec-7] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 09:02:33 [http-nio-8080-exec-7] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 09:02:33 EAT 2022
+2022-06-20 09:02:33 [http-nio-8080-exec-8] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 09:02:33 [http-nio-8080-exec-8] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 09:02:33 EAT 2022
+2022-06-20 10:10:03 [http-nio-8080-exec-1] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 10:10:03 [http-nio-8080-exec-1] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 10:10:03 EAT 2022
+2022-06-20 10:10:57 [http-nio-8080-exec-2] INFO  c.s.elastic.controller.ELKController - Inside Food Detail Function
+2022-06-20 10:10:57 [http-nio-8080-exec-2] INFO  c.s.elastic.service.ELKService - Fetching all food details
+2022-06-20 10:11:00 [http-nio-8080-exec-9] INFO  c.s.elastic.controller.ELKController - Inside Food Detail Function
+2022-06-20 10:11:00 [http-nio-8080-exec-9] INFO  c.s.elastic.service.ELKService - Fetching all food details
+2022-06-20 10:11:02 [http-nio-8080-exec-8] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 10:11:02 [http-nio-8080-exec-8] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 10:11:02 EAT 2022
+2022-06-20 10:16:11 [http-nio-8080-exec-1] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 10:16:11 [http-nio-8080-exec-1] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 10:16:11 EAT 2022
+2022-06-20 10:16:27 [http-nio-8080-exec-2] INFO  c.s.elastic.controller.ELKController - Inside Food Detail Function
+2022-06-20 10:16:27 [http-nio-8080-exec-2] INFO  c.s.elastic.service.ELKService - Fetching all food details
+2022-06-20 10:22:14 [http-nio-8080-exec-8] INFO  c.s.elastic.controller.ELKController - Inside Food Detail Function
+2022-06-20 10:22:14 [http-nio-8080-exec-8] INFO  c.s.elastic.service.ELKService - Fetching all food details
+2022-06-20 10:30:15 [http-nio-8080-exec-1] INFO  c.s.elastic.controller.ELKController - Inside Food Detail Function
+2022-06-20 10:30:16 [http-nio-8080-exec-1] INFO  c.s.elastic.service.ELKService - Fetching all food details
+2022-06-20 10:35:27 [http-nio-8080-exec-2] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 10:35:27 [http-nio-8080-exec-2] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 10:35:27 EAT 2022
+2022-06-20 10:47:02 [http-nio-8080-exec-7] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 10:47:02 [http-nio-8080-exec-7] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 10:47:02 EAT 2022
+2022-06-20 10:47:03 [http-nio-8080-exec-8] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 10:47:03 [http-nio-8080-exec-8] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 10:47:03 EAT 2022
+2022-06-20 10:47:03 [http-nio-8080-exec-10] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 10:47:03 [http-nio-8080-exec-10] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 10:47:03 EAT 2022
+2022-06-20 10:55:59 [http-nio-8080-exec-4] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 10:55:59 [http-nio-8080-exec-4] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 10:55:59 EAT 2022
+2022-06-20 10:56:00 [http-nio-8080-exec-3] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 10:56:00 [http-nio-8080-exec-3] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 10:56:00 EAT 2022
+2022-06-20 10:56:01 [http-nio-8080-exec-6] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 10:56:01 [http-nio-8080-exec-6] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 10:56:01 EAT 2022
+2022-06-20 10:56:02 [http-nio-8080-exec-7] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 10:56:02 [http-nio-8080-exec-7] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 10:56:02 EAT 2022
+2022-06-20 10:56:02 [http-nio-8080-exec-8] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 10:56:02 [http-nio-8080-exec-8] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 10:56:02 EAT 2022
+2022-06-20 10:56:03 [http-nio-8080-exec-10] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 10:56:03 [http-nio-8080-exec-10] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 10:56:03 EAT 2022
+2022-06-20 10:56:10 [http-nio-8080-exec-5] INFO  c.s.elastic.controller.ELKController - Inside Food Detail Function
+2022-06-20 10:56:10 [http-nio-8080-exec-5] INFO  c.s.elastic.service.ELKService - Fetching all food details
+2022-06-20 10:56:12 [http-nio-8080-exec-3] INFO  c.s.elastic.controller.ELKController - Inside Food Detail Function
+2022-06-20 10:56:12 [http-nio-8080-exec-3] INFO  c.s.elastic.service.ELKService - Fetching all food details
+2022-06-20 10:56:13 [http-nio-8080-exec-2] INFO  c.s.elastic.controller.ELKController - Inside Food Detail Function
+2022-06-20 10:56:13 [http-nio-8080-exec-2] INFO  c.s.elastic.service.ELKService - Fetching all food details
+2022-06-20 10:56:13 [http-nio-8080-exec-9] INFO  c.s.elastic.controller.ELKController - Inside Food Detail Function
+2022-06-20 10:56:13 [http-nio-8080-exec-9] INFO  c.s.elastic.service.ELKService - Fetching all food details
+2022-06-20 11:41:51 [http-nio-8080-exec-8] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 11:41:51 [http-nio-8080-exec-8] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 11:41:51 EAT 2022
+2022-06-20 11:42:06 [http-nio-8080-exec-4] INFO  c.s.elastic.controller.ELKController - Inside Food Detail Function
+2022-06-20 11:42:06 [http-nio-8080-exec-4] INFO  c.s.elastic.service.ELKService - Fetching all food details
+2022-06-20 11:42:09 [http-nio-8080-exec-1] INFO  c.s.elastic.controller.ELKController - Inside Food Detail Function
+2022-06-20 11:42:09 [http-nio-8080-exec-1] INFO  c.s.elastic.service.ELKService - Fetching all food details
+2022-06-20 12:06:01 [http-nio-8080-exec-9] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 12:06:01 [http-nio-8080-exec-9] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 12:06:01 EAT 2022
+2022-06-20 12:06:43 [http-nio-8080-exec-8] INFO  c.s.elastic.controller.ELKController - Inside Food Detail Function
+2022-06-20 12:06:43 [http-nio-8080-exec-8] INFO  c.s.elastic.service.ELKService - Fetching all food details
+2022-06-20 12:08:55 [http-nio-8080-exec-4] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 12:08:55 [http-nio-8080-exec-4] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 12:08:55 EAT 2022
+2022-06-20 12:08:55 [http-nio-8080-exec-1] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 12:08:55 [http-nio-8080-exec-1] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 12:08:55 EAT 2022
+2022-06-20 12:09:00 [http-nio-8080-exec-9] INFO  c.s.elastic.controller.ELKController - Inside Food Detail Function
+2022-06-20 12:09:00 [http-nio-8080-exec-9] INFO  c.s.elastic.service.ELKService - Fetching all food details
+2022-06-20 12:09:01 [http-nio-8080-exec-7] INFO  c.s.elastic.controller.ELKController - Inside Food Detail Function
+2022-06-20 12:09:01 [http-nio-8080-exec-7] INFO  c.s.elastic.service.ELKService - Fetching all food details
+2022-06-20 12:14:05 [http-nio-8080-exec-5] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 12:14:05 [http-nio-8080-exec-5] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 12:14:05 EAT 2022
+2022-06-20 12:14:38 [http-nio-8080-exec-1] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 12:14:38 [http-nio-8080-exec-1] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 12:14:38 EAT 2022
+2022-06-20 12:20:40 [http-nio-8080-exec-9] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 12:20:40 [http-nio-8080-exec-9] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 12:20:40 EAT 2022
+2022-06-20 12:27:03 [http-nio-8080-exec-8] INFO  c.s.elastic.controller.ELKController - Inside Food Detail Function
+2022-06-20 12:27:03 [http-nio-8080-exec-8] INFO  c.s.elastic.service.ELKService - Fetching all food details
+2022-06-20 12:27:08 [http-nio-8080-exec-10] INFO  c.s.elastic.controller.ELKController - Inside Hello World Function
+2022-06-20 12:27:08 [http-nio-8080-exec-10] INFO  c.s.elastic.controller.ELKController - Response => Hello World! Mon Jun 20 12:27:08 EAT 2022
+2022-06-20 12:44:28 [main] INFO  c.s.e.SpringdataelasticApplication - Starting SpringdataelasticApplication using Java 18.0.1.1 on AMasterPiece with PID 20412 (D:\spring\Projects\springdataelastic\target\classes started by bless in D:\spring\Projects\springdataelastic)
+2022-06-20 12:44:28 [main] INFO  c.s.e.SpringdataelasticApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-20 12:44:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-06-20 12:44:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Elasticsearch repository interfaces.
+2022-06-20 12:44:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-06-20 12:44:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-06-20 12:44:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 12:44:31 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 12:44:31 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-20 12:44:31 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-20 12:44:31 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-20 12:44:31 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3445 ms
+2022-06-20 12:44:34 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-20 12:44:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-20 12:44:34 [main] INFO  c.s.e.SpringdataelasticApplication - Started SpringdataelasticApplication in 7.76 seconds (JVM running for 9.888)
+2022-06-20 12:52:09 [main] INFO  c.s.e.SpringdataelasticApplication - Starting SpringdataelasticApplication using Java 18.0.1.1 on AMasterPiece with PID 3256 (D:\spring\Projects\springdataelastic\target\classes started by bless in D:\spring\Projects\springdataelastic)
+2022-06-20 12:52:09 [main] INFO  c.s.e.SpringdataelasticApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-20 12:52:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-06-20 12:52:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Elasticsearch repository interfaces.
+2022-06-20 12:52:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-06-20 12:52:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-06-20 12:52:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 12:52:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 12:52:13 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-20 12:52:13 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-20 12:52:14 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-20 12:52:14 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4456 ms
+2022-06-20 12:52:14 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ELKController' defined in file [D:\spring\Projects\springdataelastic\target\classes\com\springdata\elastic\controller\ELKController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'restService' defined in file [D:\spring\Projects\springdataelastic\target\classes\com\springdata\elastic\service\RestService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-06-20 12:52:14 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-20 12:52:14 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-20 12:52:14 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.springdata.elastic.service.RestService required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+2022-06-20 12:55:28 [main] INFO  c.s.e.SpringdataelasticApplication - Starting SpringdataelasticApplication using Java 18.0.1.1 on AMasterPiece with PID 17284 (D:\spring\Projects\springdataelastic\target\classes started by bless in D:\spring\Projects\springdataelastic)
+2022-06-20 12:55:28 [main] INFO  c.s.e.SpringdataelasticApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-20 12:55:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-06-20 12:55:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Elasticsearch repository interfaces.
+2022-06-20 12:55:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-06-20 12:55:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-06-20 12:55:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 12:55:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 12:55:32 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-20 12:55:32 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-20 12:55:32 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-20 12:55:32 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3822 ms
+2022-06-20 12:55:32 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ELKController' defined in file [D:\spring\Projects\springdataelastic\target\classes\com\springdata\elastic\controller\ELKController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'restService' defined in file [D:\spring\Projects\springdataelastic\target\classes\com\springdata\elastic\service\RestService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-06-20 12:55:32 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-06-20 12:55:32 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-20 12:55:32 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.springdata.elastic.service.RestService required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+2022-06-20 13:03:39 [main] INFO  c.s.e.SpringdataelasticApplication - Starting SpringdataelasticApplication using Java 18.0.1.1 on AMasterPiece with PID 17296 (D:\spring\Projects\springdataelastic\target\classes started by bless in D:\spring\Projects\springdataelastic)
+2022-06-20 13:03:39 [main] INFO  c.s.e.SpringdataelasticApplication - No active profile set, falling back to 1 default profile: "default"
+2022-06-20 13:03:41 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-06-20 13:03:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Elasticsearch repository interfaces.
+2022-06-20 13:03:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-06-20 13:03:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-06-20 13:03:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-06-20 13:03:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-20 13:03:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-20 13:03:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-20 13:03:46 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-20 13:03:46 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6091 ms
+2022-06-20 13:03:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-06-20 13:03:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-20 13:03:51 [main] INFO  c.s.e.SpringdataelasticApplication - Started SpringdataelasticApplication in 13.397 seconds (JVM running for 15.111)
+2022-06-20 13:04:33 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-20 13:04:33 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-20 13:04:33 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
