@@ -1,14 +1,10 @@
 spring:
-  elasticsearch:
-    uris:
-      - http:localhost:9200
   application:
     name: spring-elastic-data
 server:
   port: 8080
 
 elastic-config:
-  index-name: twitter-index
   connection-url: http://localhost:9200
   connect-timeout-ms: 5000
   socket-timeout-ms: 30000
