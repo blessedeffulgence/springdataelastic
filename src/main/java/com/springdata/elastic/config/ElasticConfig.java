@@ -1,5 +1,7 @@
 package com.springdata.elastic.config;
 
+
+
 import org.apache.http.Header;
 import org.apache.http.HttpHeaders;
 import org.apache.http.HttpHost;
@@ -19,6 +21,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import java.util.Objects;
 
+
 @Configuration
 @EnableElasticsearchRepositories(basePackages = "com.springdata.elastic.repository")
 @ComponentScan(basePackages = { "com.springdata.elastic" })
@@ -36,7 +39,6 @@ public class ElasticConfig {
         return builder.build();
     }
 
-    @Bean
     public RestHighLevelClient client() {
         UriComponents serverUri = UriComponentsBuilder.fromHttpUrl(elasticConfigData.getConnectionUrl()).build();
         return new RestHighLevelClient(
@@ -62,6 +64,7 @@ public class ElasticConfig {
     public ElasticsearchOperations elasticsearchTemplate() {
         return new ElasticsearchRestTemplate(client());
     }
+
 
 
 

@@ -32,8 +32,6 @@ public class MainController {
         this.articleRepository = articleRepository;
     }
 
-
-    @Scheduled(fixedRate = 10000L)
     public void addArticle()
     {
         Faker faker = new Faker();
